@@ -299,9 +299,9 @@ background-color: #fff;
 
 }
 
-.skills-container {
+.skill-container {
 display: grid;
-grid-template-columns: repeat (auto-fit,minmax(240px, 1fr));
+grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
 gap: 24px;
 max-width: 1100px;
 margin: auto;
@@ -313,7 +313,7 @@ padding: 28px 20px;
 text-align: center;
 border-radius: 12px;
 box-shadow:  0 2px 6px rgba(0, 0, 0, 0.1);
-transition: transforms 0.3s ease, box-shadow 0.3s ease;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-card:hover {
