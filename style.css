@@ -342,3 +342,253 @@ line-height: 1.4;
 
 }
 
+.banner-img {
+
+    height: 340px;
+
+    width: 340px;
+
+}
+
+.nav-item li a {
+
+    font-size: 16px;
+
+}
+
+.banner-container {
+
+    gap: 24px;
+
+    margin: 24px 0 0 0;
+
+}
+
+
+.banner-head p {
+
+    font-size: 22px;
+
+}
+
+
+.banner-head h1 {
+
+    font-size: 36px;
+
+}
+
+
+.banner-head h2 {
+
+    font-size: 28px;
+
+}
+
+
+.btn-view {
+
+    font-size: 14px;
+
+}
+
+
+.btn-download {
+
+    font-size: 14px;
+
+}
+
+
+.banner-icon {
+
+    margin-top: 10px;
+
+    font-size: 34px;
+
+}
+
+
+.banner-icon a {
+
+    text-decoration: none;
+
+    color: #000;
+
+}
+
+
+.banner-icon a:hover {
+
+    cursor: pointer;
+
+}
+
+.section-title {
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.about-section {
+
+    padding-top: 20px;
+
+}
+
+
+.about-container {
+
+    gap: 24px;
+
+}
+
+
+.about-img {
+
+    width: 320px;
+
+    height: 300px;
+
+}
+
+
+.about-text {
+
+    font-size: 18px;
+
+    padding: 0 20px;
+
+}
+
+
+.skills-section {
+
+    padding-top: 28px;
+
+}
+
+
+.skills-container {
+
+    gap: 28px;
+
+    margin-top: 20px;
+
+    padding: 0 28px;
+
+}
+
+
+.skill-card {
+
+    padding: 20px 14px;
+
+}
+
+@media (max-width: 768px) {
+
+    .nav-item {
+        flex-direction: column;
+        background: #f1f1f1;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 220px;
+        display: none;
+        padding: 15px 0;
+        box-shadow: rgba(0, 0, 0, 0.15);
+
+
+    }
+
+{
+
+
+
+}
+
+.nav-item.show {
+ 
+    display: flex;
+
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.nav-profile-head h1 {
+    font-size: 24px;
+}
+
+.nav-item li a {
+    padding: 8px 32px;
+    font-size: 20px;
+}
+
+.banner-container {
+    flex-direction: column;
+    gap: 36px ;
+    margin: 36px 0;
+}
+
+.section-title {
+margin-bottom: 28px;
+
+}
+
+.about-section {
+    padding-top: 14px;
+    background-color: #fafafa;
+}
+
+.section-title{
+margin-bottom: 28px;
+
+}
+
+.about-section {
+padding-top: 14px;
+background-color: #fafafa;
+
+}
+
+.about-container {
+flex-direction: column;
+align-items: center;
+gap: 28px;
+
+}
+
+.about-text{
+    padding: 0 28px;
+
+}
+
+.skills-section {
+padding-top: 40px;
+padding-bottom: 32px;
+background-color: #fff;
+
+}
+
+.skills-container {
+    padding: 0 28px;
+
+}
+
+.skill-card {
+    padding: 28px 20px;
+}
+
+
+
+
+
+
+
+
